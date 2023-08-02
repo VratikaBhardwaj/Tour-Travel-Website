@@ -1,0 +1,678 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.top-nav {
+    border-bottom: 1px solid white;
+    position: absolute;
+    z-index: 11;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.493), rgba(20, 16, 16, 0));
+}
+
+
+.left-nav-ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+li.left-nav-li {
+    padding: 5px;
+    list-style-type: none;
+    display: inline-block;
+    border-right: 1px solid white;
+}
+
+button#dropdownMenuButton1 {
+    color: white;
+}
+
+li.left-nav-li-icons {
+    display: flex;
+}
+
+.left-nav-content.social-icon {
+    display: flex;
+    align-items: center;
+
+}
+
+a.social-icon-list {
+    margin-left: 10px;
+    line-height: 0;
+
+}
+
+.login-list {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+i.bx.bxl-instagram-alt.instagram,
+i.bx.bxl-facebook-circle.facebook,
+i.bx.bxl-twitter.twitter,
+i.bx.bxl-google-plus-circle.google {
+    color: white;
+    font-size: 20px;
+}
+
+.btn-check:focus+.btn,
+.btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+
+
+.right-nav-ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: end;
+    color: white;
+}
+
+ul.login-avatar {
+    margin: 0;
+    line-height: 0;
+    padding: 0;
+    border-right: 1px solid white;
+}
+
+img.avatar {
+    width: 17%;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+p.login {
+    margin: 0;
+    font-size: 11px;
+    padding-left: 10px;
+    line-height: 15px;
+}
+
+.Review {
+    padding: 12px 20px;
+    border-right: 1px solid white;
+}
+
+i.bx.bx-search-alt.search-icon {
+    padding: 16px 20px;
+}
+
+
+img.d-block.w-100.bannerimg {
+    position: relative;
+}
+
+
+.banner-content {
+    color: white;
+    position: absolute;
+    top: 100%;
+    margin-top: 100px;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+h2.vetrov {
+    font-size: 70px;
+}
+
+h6.travel-agency {
+    font-size: 22px;
+}
+
+.menu {
+    width: 43%;
+    margin: auto;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+
+.icon-on-border {
+    border: 1px solid white;
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 80%;
+    z-index: 2;
+}
+
+.yellow-logo {
+    margin: auto;
+    /* width: 19%; */
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 5;
+    top: 70%;
+}
+
+ul.line-logo-list {
+    list-style-type: none;
+}
+
+
+
+li.line-logo {
+    display: inline-block;
+    padding: 50px;
+
+}
+
+i.bx.bxs-hotel.hotel,
+i.bx.bx-restaurant.restaurants,
+i.bx.bxs-cable-car.things,
+i.bx.bxs-plane-alt.plane {
+    font-size: 17px;
+    padding: 10px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 22px;
+    border-color: #fcb100;
+    background-color: #fcb100;
+
+}
+
+
+/* input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid silver ;
+    float: right;
+  } */
+
+.left-sided-para {
+    text-align: end;
+    padding: 30px;
+    font-size: 16px;
+}
+
+.right-sided-para {
+    text-align: left;
+    padding: 18px;
+    margin: 0;
+    font-size: 32px;
+}
+
+.places {
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+
+.img-place {
+    position: relative;
+}
+
+.yellow-left-bar {
+    position: absolute;
+    height: 700px;
+    top: 0;
+    background-color: #fcb100;
+    width: 309px;
+}
+
+h2.best-places {
+    padding: 40px;
+    font-size: 31px;
+    color: white;
+}
+
+ul.list-group.yellowbar-list {
+    border: none;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    margin-bottom: 213px;
+    border-radius: 0.25rem;
+}
+
+li.list-group-item.d-flex.justify-content-between.align-items-center.yellow-bar-places-list {
+    background-color: #fcb100;
+    border: none;
+    /* margin: 5px; */
+    margin-right: 69px;
+    margin-left: 46px;
+    color: white;
+}
+
+li.list-group-item.icon-and-name {
+    text-align: center;
+    padding: 5px;
+    /* margin: 10px; */
+    width: 93px;
+}
+
+.white-bar {
+    position: absolute;
+    top: 14%;
+    left: 29%;
+}
+
+.building-img-content {
+    position: absolute;
+    top: 10%;
+    left: 42%;
+    right: 14%;
+}
+
+.rating {
+    color: white;
+    font-size: small;
+}
+
+.name-of-hotel {
+    margin-top: 383px;
+    color: white;
+    font-size: 22px;
+}
+
+.about-hotel {
+    color: white;
+    font-size: smaller;
+}
+
+a.detailing:link {
+    color: #fcb100;
+}
+
+/* h4.booking-now-text,
+h4.review-this-place-text {
+transform-origin: 0 0;
+transform: rotate(90deg);
+
+}
+
+ */
+
+
+.most-popular-place {
+    margin-top: 81px;
+    background-color: #c0c0c040;
+    padding: 75px;
+}
+
+.popular-place-content {
+    text-align: center;
+
+}
+
+button.yellow-button {
+    padding: 19px;
+    border: none;
+    background-color: white;
+}
+
+.popular-places-button {
+    text-align: center;
+    padding: 20px;
+}
+
+button.yellow-button:hover {
+    background-color: #fcb100;
+    color: white;
+}
+
+img.card-img-top {
+    position: relative;
+}
+
+.place-name {
+    position: absolute;
+    top: 26%;
+    left: 10%;
+    color: white;
+}
+
+.icon-and-place {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    margin: -10px;
+}
+
+p.hotel-rate {
+    padding: 0;
+    margin: 0;
+}
+
+p.hotel-rate {
+    color: #808080d1;
+    font-size: 13px;
+}
+
+span.las-alco {
+    color: black;
+    font-size: 13px;
+}
+
+.location-icon {
+    padding: 20px;
+}
+
+span.name-of-place {
+    font-size: 25px;
+}
+
+span.start-from {
+    color: #ffffffb3;
+    font-size: 14px;
+}
+
+
+i.bx.bx-current-location {
+    color: silver;
+    font-size: 25px;
+}
+
+a.hotel-link {
+    color: black;
+}
+
+button.button.button1 {
+    border: 1px solid grey;
+    padding: 1px;
+    margin: 10px;
+    background-color: white;
+}
+
+.promotion-section {
+    position: relative;
+}
+
+.promotion-content {
+    position: absolute;
+    top: 10%;
+    text-align: center;
+    color: white;
+    margin: auto;
+    left: 0;
+    width: 50%;
+    right: 0;
+}
+
+h6.stay-line {
+    font-size: x-small;
+}
+
+.diff-mini-hotel {
+    position: absolute;
+    top: 78%;
+}
+
+img.diff-mini-hotel-row {
+    border-radius: 10px;
+
+
+}
+
+img.diff-mini-hotel-row:hover {
+    border: 3px solid #fcb100;
+}
+
+.valid-content {
+    position: absolute;
+    bottom: 2%;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    left: 0;
+    right: 0;
+    color: white;
+}
+
+.valid-line {
+    display: inline-flex;
+}
+
+a.hotel-detail-link,
+a.book-now-link {
+    margin-left: 33px;
+    color: #fcb100;
+}
+
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 1px solid silver;
+}
+
+form.form1 {
+    padding: 50px;
+    margin: 7px;
+    padding: 32px;
+    width: 85%;
+    background-image: beige;
+    background-image: url(../form1.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.form-container {
+    margin-top: 100px;
+}
+
+p.form-para {
+    padding: 0;
+    margin: 0;
+    font-size: small;
+}
+
+h3.form-head {
+    font-size: larger;
+}
+
+.form-content {
+    background-color: white;
+    padding: 44px;
+}
+
+h6.news {
+    margin-top: 31px;
+
+}
+
+a.newsletter-link {
+    color: black;
+}
+
+p.top-listed {
+    font-size: smaller;
+    color: #808080ad;
+}
+
+h4.attract {
+    padding: 0;
+    margin: 0;
+}
+
+.image-and-choices {
+    margin: 13px;
+}
+
+.single {
+    display: inline-flex;
+    padding: 11px;
+    align-items: center;
+}
+
+.choice-content {
+    margin: 27px;
+}
+
+img.mini-choice-img {
+    border-radius: 4px;
+
+}
+
+.traveller-heading {
+    margin: 18px;
+}
+
+h4.attract {
+    font-size: large;
+}
+
+p.top-listed {
+    font-size: smaller;
+}
+
+
+
+
+section.vedio-section {
+    background-color: #80808038;
+    padding: 50px;
+    margin-top: 34px;
+}
+
+h4.spotlight {
+    text-align: start;
+    font-size: 40px;
+}
+
+h6.beaufort {
+    text-align: end;
+    font-size: 21px;
+}
+
+.vedio-section-part {
+
+    margin-top: 42px;
+
+}
+
+iframe.embed-responsive-item.vedio {
+    width: 100%;
+    height: 500px;
+}
+
+.paragraph-section {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+section.latest-news {
+    margin-top: 55px;
+}
+
+.latest-news-heading {
+    text-align: center;
+}
+
+h3.latest-news-head {
+    font-size: 37px;
+}
+
+img.card-img-top.latest-news-pics {
+    position: relative;
+}
+
+.news-dates {
+    position: absolute;
+    top: 28%;
+    left: 11%;
+    color: #fcb100;
+}
+
+b.date {
+    font-size: 54px;
+}
+
+.read-more-link a:link {
+    color: #fcb100;
+}
+
+span.month {
+    font-size: 20px;
+}
+
+h3.card-text.news-head {
+    font-size: large;
+}
+
+p.news-content {
+    font-size: small;
+}
+
+
+
+section.footer-section {
+    background-image: url(../footerbg.jpg);
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding: 52px;
+
+}
+
+
+
+h2.footer-head {
+    font-size: 59px;
+}
+
+ul.footer-nav {
+    margin: 50px;
+}
+
+.footer-menu .footer-nav li {
+    display: inline-block;
+    padding: 10px;
+    color: white;
+}
+
+.footer-nav li a:link {
+    color: white;
+}
+
+
+.logo-slide {
+    margin: 58px;
+    padding: 27px;
+}
+
+p.brand-name {
+    margin: 0;
+    padding: 0;
+}
+
+.mini-logo-company {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+i.bx.bxs-heart {
+    color: red;
+}
